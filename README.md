@@ -1,6 +1,6 @@
 # RiderProjectUnloader
 
-**RiderProjectUnloader** is a Python script designed to speed up JetBrains Rider launch times by unloading all projects within your Visual Studio solutions. It mimics Rider behavior in creating its `.DotSettings.user` file. It does it however in milliseconds instead of you and Rider spending minutes on the same task. The script ensures that Rider ignores all projects on startup, allowing it to start almost instantly whereas on very large solutions it can take many long minutes. Once Rider starts you select which projects to load, typically via its `Load project With Dependencies` feature; and you enable the "Solution Wide Analysis" at the moment of your choice.
+... is a Python script designed to speed up JetBrains Rider launch times by unloading all projects within your Visual Studio solutions. It mimics Rider behavior in creating its `.DotSettings.user` file. It does it however in milliseconds instead of you and Rider spending minutes on the same task. The script ensures that Rider ignores all projects on startup, allowing it to start almost instantly whereas on very large solutions it can take many long minutes. Once Rider starts you select which projects to load, typically via its `Load project With Dependencies` feature; and you enable the "Solution Wide Analysis" at the moment of your choice.
 
 ## Features
 
@@ -66,4 +66,4 @@ This project is licensed under the MIT License.
 
 ## Author
 
-- [@JanZeman](https://github.com/JanZeman)
+[@JanZeman](https://github.com/JanZeman)

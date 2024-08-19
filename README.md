@@ -55,6 +55,15 @@
 - It's recommended to close Rider before running the script to avoid any conflicts.
 - You can manually load any unloaded projects in Rider as needed after the script has run.
 
+## Compatibility
+
+This script has been tested with the following configurations:
+
+- JetBrains Rider versions: [Specify versions, e.g., 2023.1 and later]
+
+If you encounter issues with other configurations, please feel free to report them via GitHub Issues.
+
+
 ## Contributing
 
 Contributions are welcome! Please fork this repository and submit a pull request with your changes.

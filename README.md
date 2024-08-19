@@ -4,7 +4,7 @@
 
 ## Features
 
-- Extracts project GUIDs from a Visual Studio solution file (`.sln`).
+- Extracts project GUIDs from a Visual Studio solution file (`<solution-file>.sln`).
 - Encodes these keys to the format expected by Rider.
 - Disables "Solution Wide Analysis" in Rider, further improving startup performance.
 - Generates a `.DotSettings.user` file that Rider uses to determine which projects to unload on startup.
@@ -25,13 +25,13 @@
    ```
    Or create the both scripts manually and copy & paste their content.
 
-2. Copy both scripts to your project folder, next to your <solution-file>.sln :
+2. Copy both scripts to your project folder, next to your `<solution-file>.sln`.
 
 3. Ensure that the `unload_rider.sh` script is executable:
    ```bash
    chmod +x unload_rider.sh
    ```
-4. Modify content of `unload_rider.sh` by replacing <solution-file>.sln with the name of your solution file.
+4. Modify content of `unload_rider.sh` by replacing `<solution-file>.sln` with the name of your solution file.
 
 ### Execution
 

@@ -1,6 +1,6 @@
 # RiderProjectUnloader
 
-**RiderProjectUnloader** is a Python script designed to speed up JetBrains Rider launch times by unloading all projects within your Visual Studio solutions. It mimics Rider behavior in creating its `.DotSettings.user` file. It does it however in milliseconds instead of you and Rider spending minutes on the same task. The script ensures that Rider ignores all projects on startup, allowing it to start almost instantly whereas on very large solutions it can take many long minutes. Once Rider starts you select which projects to load, typically via its `Load project with dependencies` feature; and you enable the "Solution Wide Analysis" in the moment of your choice.
+**RiderProjectUnloader** is a Python script designed to speed up JetBrains Rider launch times by unloading all projects within your Visual Studio solutions. It mimics Rider behavior in creating its `.DotSettings.user` file. It does it however in milliseconds instead of you and Rider spending minutes on the same task. The script ensures that Rider ignores all projects on startup, allowing it to start almost instantly whereas on very large solutions it can take many long minutes. Once Rider starts you select which projects to load, typically via its `Load project With Dependencies` feature; and you enable the "Solution Wide Analysis" at the moment of your choice.
 
 ## Features
 
@@ -47,7 +47,7 @@
    This will generate a `.DotSettings.user` file for the specified solution, which Rider will use to determine which projects to unload on startup.
 
 2. After running the script, restart JetBrains Rider to see the changes. It should start very quickly with all projects in an unloaded state.
-3. Decide which projects to load, typically by right-clicking on one of your application projects and selecting "Load with Dependencies" option.
+3. Decide which projects to load, typically by right-clicking on one of your application projects and selecting "Load Project with Dependencies" option.
 4. Optionally re-enable the "Solution Wide Analysis".
 
 ### Notes

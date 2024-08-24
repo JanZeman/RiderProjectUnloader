@@ -9,6 +9,10 @@
 - Disables "Solution Wide Analysis" in Rider, further improving startup performance.
 - Generates a `.DotSettings.user` file that Rider uses to determine which projects to unload on startup.
 
+## Motivation
+
+I’ve been struggling with Rider’s extremely long startup times on solutions with many projects. For large solutions (over 100 projects), it can take several minutes just to open Rider, followed by more time to enable the "Unload Projects" functionality, and additional minutes to actually unload the projects. In practice, this meant losing 10-15 minutes each day before I could start coding. This script addresses that issue by performing the unloading task in milliseconds, allowing Rider to start within about 30 seconds. From there, you can select which projects to load, typically using the "Load Project with Dependencies" feature.
+
 ## How to Use
 
 ### Prerequisites
